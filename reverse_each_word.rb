@@ -1,9 +1,10 @@
 def reverse_each_word(string)
   array = Array.new
+  array_2 = []
   array = string.split(" ")
   
   array.each do |str|
-    str.reverse
+    array_2 << str.reverse
   end
 end
   
