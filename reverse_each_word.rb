@@ -6,6 +6,6 @@ def reverse_each_word(string)
   array.each do |str|
     array_2 << str.reverse
   end
-return array_2.join
+return array_2.join(' ')
 end
   
